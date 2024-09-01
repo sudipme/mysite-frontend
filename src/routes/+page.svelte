@@ -2,7 +2,7 @@
   import NavBar from "./components/NavBar.svelte";
   import AboutMe from "./components/AboutMe.svelte";
   import Links from "./components/Links.svelte";
-  import InfoContainer from "./components/InfoContainer.svelte";
+  import Updates from "./components/Updates.svelte";
   import FeaturedArticles from "./components/FeaturedArticles.svelte";
   import FeaturedProjects from "./components/FeaturedProjects.svelte";
 </script>
@@ -15,7 +15,7 @@
 >
   <AboutMe />
   <Links />
-  <InfoContainer />
+  <Updates />
   <FeaturedProjects />
   <FeaturedArticles />
 </div>

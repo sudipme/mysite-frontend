@@ -1,11 +1,6 @@
 <script>
     import { base } from "$app/paths";
-    import { ApiBaseUrl } from "$lib/config";
     const links = [
-        {
-            url: `${base}/projects`,
-            title: "Pet-Projects",
-        },
         {
             url: `${base}/resume`,
             title: "Resume",
