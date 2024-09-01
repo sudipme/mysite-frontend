@@ -53,7 +53,7 @@
     {:then { projects, total_pages }}
         <div
             id="blogs-container"
-            class="w-full min-h-[calc(100vh-200px)] mb-0 box-border flex flex-col items-center overflow-hidden"
+            class="w-full min-h-[calc(100vh-180px)] mb-0 box-border flex flex-col items-center overflow-hidden"
         >
             {#each Object.values(projects) as project}
                 <a

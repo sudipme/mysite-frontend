@@ -17,9 +17,9 @@
 
 <div class="w-full bg-white flex justify-center">
     <div
-        class="max-w-[1400px] w-full md:w-3/5 px-3  flex flex-col items-center justify-center overflow-hidden text-black font-helvetica"
+        class="max-w-[1400px] w-full md:w-3/5 px-5  flex flex-col items-center justify-center overflow-hidden text-black font-helvetica"
     >
-        <a href="/" class="w-full my-8 flex justify-start items-center">
+        <a href="/articles" class="w-full my-8 flex justify-start items-center">
             <img
                 src="/icons/back.svg"
                 alt="back icon"
@@ -50,7 +50,6 @@
 
     :global(p) {
         @apply my-4 font-light text-base text-justify leading-7;
-        word-spacing: -0.1em;
     }
 
     :global(strong) {
