@@ -49,12 +49,12 @@
     }
 
     :global(p) {
-        @apply my-6 font-light text-base text-justify leading-7;
+        @apply my-4 font-light text-base text-justify leading-7;
         word-spacing: -0.1em;
     }
 
     :global(strong) {
-        @apply text-lg font-normal mt-8;
+        @apply text-lg font-normal;
     }
 
     :global(img) {
@@ -62,10 +62,10 @@
     }
 
     :global(pre) {
-        @apply overflow-x-auto whitespace-pre bg-gray-200 p-4 my-4 rounded-lg;
+        @apply overflow-x-auto whitespace-pre bg-[rgb(250,250,250)] p-4 my-4 rounded-md border;
     }
 
     :global(code) {
-        @apply text-base bg-gray-200 px-1 py-0.5 rounded font-mono;
+        @apply text-base bg-[rgb(250,250,250)] px-1 py-0.5 rounded font-mono;
     }
 </style>
