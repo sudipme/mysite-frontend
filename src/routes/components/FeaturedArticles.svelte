@@ -48,7 +48,7 @@
                     {blog.blog_title}
                 </h2>
                 <h3
-                    class="my-1 text-left font-sohne text-lg font-normal text-gray-400"
+                    class="my-1 text-left text-justify font-sohne text-lg font-normal text-gray-400"
                 >
                     {blog.blog_description}
                 </h3>

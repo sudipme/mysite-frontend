@@ -67,7 +67,7 @@
                         {blog.blog_title}
                     </h2>
                     <h3
-                        class="m-[5px_0] text-left text-[#ddd] text-lg font-normal font-['Sohne',_sans-serif] sm:text-base sm:w-[85vw]"
+                        class="m-[5px_0] w-[85vw] text-left text-justify text-[#ddd] text-lg font-normal font-['Sohne',_sans-serif] sm:text-base"
                     >
                         {blog.blog_description}
                     </h3>

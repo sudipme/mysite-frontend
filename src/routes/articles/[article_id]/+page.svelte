@@ -67,4 +67,7 @@
     :global(code) {
         @apply text-base bg-[rgb(250,250,250)] px-1 py-0.5 rounded font-mono;
     }
+    :global(iframe) {
+        @apply w-full;
+    }
 </style>
