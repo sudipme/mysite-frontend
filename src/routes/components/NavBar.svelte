@@ -73,7 +73,7 @@
                 />
             </a>
             <a
-                href="https://x.com/sudiphl"
+                href="https://x.com/sudipxh"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="m-1 rounded cursor-pointer"

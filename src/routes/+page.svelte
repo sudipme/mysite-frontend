@@ -15,7 +15,7 @@
 >
   <AboutMe />
   <Links />
-  <Updates />
+  <!-- <Updates /> -->
   <FeaturedProjects />
   <FeaturedArticles />
 </div>
