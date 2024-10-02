@@ -1,5 +1,6 @@
 <script lang="ts">
     import { page } from "$app/stores";
+    import Loading from "../components/Loading.svelte";
     import { BaseUrl, ApiBaseUrl } from "$lib/config";
 
     interface Project {
@@ -33,6 +34,7 @@
     />
 </svelte:head>
 
+
 <div class="overflow-hidden">
     <div class="w-full flex justify-center">
         <a
@@ -49,7 +51,7 @@
     </div>
 
     {#await projectsPromise}
-        <p>Loading blogs...</p>
+    <Loading />
     {:then { projects, total_pages }}
         <div
             id="blogs-container"

@@ -1,6 +1,7 @@
 <script lang="ts">
     import { page } from "$app/stores";
     import { BaseUrl, ApiBaseUrl } from "$lib/config";
+    import Loading from "../components/Loading.svelte";
 
     interface Blog {
         blog_id: string;
@@ -50,7 +51,7 @@
     </div>
 
     {#await blogsPromise}
-        <p>Loading blogs...</p>
+        <Loading />
     {:then { blogs, total_pages }}
         <div
             id="blogs-container"
