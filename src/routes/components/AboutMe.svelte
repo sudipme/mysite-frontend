@@ -13,8 +13,10 @@
             <p
                 class="font-helvetica tracking-wide text-left text-gray-300 text-md md:text-lg lg:text-xl"
             >
-                Hello there! I'm Sudip. I like to work on Machine Learning
-                algorithms and train deep neural nets. Reach out to me on
+                Hi there! I’m Sudip. I’m a Computer Science & Engineering
+                student at the Indian Institute of Information Technology, Sri
+                City. I work on Machine Learning algorithms and training deep
+                neural nets. Reach out to me on
                 <a
                     href="https://x.com/sudipxh"
                     target="_blank"
