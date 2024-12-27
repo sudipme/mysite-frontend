@@ -27,7 +27,7 @@
     </div>
 
     <img
-        src="/images/profile.jpeg"
+        src="/images/profile.jpg"
         alt="sudip halder"
         class="w-[240px] rounded-full mb-8 md:mb-0"
     />
